@@ -8,6 +8,9 @@
     "module": "ES2022",
     "moduleResolution": "node",
 
+    /* Silence deprecation errors from dependent configs (TS 6.x) */
+    "ignoreDeprecations": "6.0",
+
     /* Project structure */
     "rootDir": "src",
     "outDir": "dist",
